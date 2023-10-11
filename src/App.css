@@ -1,0 +1,24 @@
+/* Import fonts */
+@import url("./assets/fonts/css/font.css");
+
+/* scroll bar styling */
+:root {
+    --primary: #c3b9b981;
+    --secondary: #003cff;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 14px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 14px;
+    border: 5px solid var(--primary);
+    background-color: transparent;
+}
