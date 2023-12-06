@@ -11,6 +11,7 @@ export const unauthenticatedMiddleware: Middleware = ({ dispatch }) => (next) =>
     }
 
     if (isRejectedWithValue(action) && action.payload.status == 500) {
+        console.log("500 error gotten");
         window.history.pushState({ error: true }, "", "/error");
     }
     return next(action);

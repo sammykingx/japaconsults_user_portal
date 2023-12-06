@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import { Modal } from "@/components/global";
 import { getFormattedDate } from ".";
 import { DayPicker } from 'react-day-picker';
