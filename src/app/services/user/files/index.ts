@@ -1,0 +1,1 @@
+export { useUploadFileMutation, useGetFileQuery, useDeleteFileMutation, useLazyGetFileQuery } from "./fileAPI";

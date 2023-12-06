@@ -1,0 +1,1 @@
+export { useUpdateUserPictureHook } from "./changeProfilePictureHook";

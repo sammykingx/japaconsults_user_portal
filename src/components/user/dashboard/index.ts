@@ -1,0 +1,1 @@
+export { UserDocumentUploadDoughnutChart } from "./document";

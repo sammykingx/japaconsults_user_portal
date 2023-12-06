@@ -1,0 +1,1 @@
+export { NoUserSVG } from "./nouser";

@@ -1,0 +1,1 @@
+export { TrashSVG } from "./TrashSVG";

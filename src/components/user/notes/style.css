@@ -1,0 +1,21 @@
+#root .ql-container {
+    background: #fefcfc;
+}
+
+/* Snow Theme */
+#root .ql-snow.ql-toolbar {
+    display: block;
+    background: #ffffff;
+}
+
+#root .ql-editor {
+    min-height: 18em;
+    background-color: #ffffff;
+    /* border: none !important; */
+    /* outline: none; */
+}
+/* 
+#root    .ql-snow {
+    border: none !important;
+    margin-top: 2px;
+} */

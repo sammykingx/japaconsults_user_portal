@@ -1,0 +1,8 @@
+export enum PAYMENT_NAVIGATION {
+    ALL = "ALL",
+    PENDING = "PENDING",
+    PAID = "PAID",
+    CANCELLED = "CANCELLED",
+    ERROR = "ERROR",
+    FAILED = 'FAILED'
+}
